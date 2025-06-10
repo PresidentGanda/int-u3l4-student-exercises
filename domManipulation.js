@@ -23,6 +23,8 @@ let image = document.querySelector('.image');
 
 contentButton.addEventListener('click', function() {
 myName.innerHTML = "Solomon";
+myHobby.innerHTML = "Soccer";
+myLocation.innerHTML = "Indy";
 
 
 });
