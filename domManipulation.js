@@ -22,24 +22,25 @@ let image = document.querySelector('.image');
 //   - The `location` paragraph.
 
 contentButton.addEventListener('click', function() {
-
-
-
-
+myName.innerHTML = "Solomon";
 
 
 });
 
 // 3. Add an event listener to the `image1Button`
 // 4. When clicked, it should change the source of `image` to another image URL.
-
+image1Button.addEventListener('click', function(){
+image.src = "download (1).jpg";
+});
 
 
 
 
 // 5. Add an event listener to the `image2Button`
 // 6. When clicked, it should change the source of `image` to another image URL.
-
+image2Button.addEventListener('mouseover', function(){
+image.src = "download (1) (1).jpg";
+});
 
 // BONUS
 // 7. Try using different event types for your buttons.
